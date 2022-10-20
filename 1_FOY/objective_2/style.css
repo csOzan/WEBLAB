@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+  padding:0
+}
+
+.menu {
+  float: left;
+  background:#666;
+  width: 300px;
+  margin-top: 10px;
+}
+
+.menu ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  list-style: none;
+  display: block;
+}
+
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 12px;
+  background:#666;
+  display: block;
+  border-bottom:1px solid #888;
+  padding: 20px;
+}
+
+.menu ul li a:hover{
+  background: #555;
+}
+.menu ul li ul{
+  display: none;
+  position: absolute;
+  width: 200px;
+  margin: -56px 0 0 300px;
+}
+.menu ul li ul li a {
+  background: #555;
+}
+.menu ul li ul li a:hover {
+  background: #444;
+}
+.menu ul li:hover > a {
+  background:#555
+}
+.menu ul li:hover ul{
+  display: block;
+}

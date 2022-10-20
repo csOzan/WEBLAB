@@ -1,3 +1,16 @@
-table, th, td {
-    border: 10px;
+table{
+    border: 1px;
+    border-style: solid;
+    background-color: darkslategray;
+    color: aliceblue;
   }
+th{
+    border: 3px;
+    border-style: dotted;
+    border-color: crimson;
+}
+td{
+  border: 3px;
+  border-style: dotted;
+  border-color: cyan;
+}
