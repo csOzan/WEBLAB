@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<humans>
+    <human>
+        <name>Duygu Aksehir</name>
+        <numara>111111</numara>
+        <bolum>Kimya Muhendisligi</bolum>
+        <sinif>3</sinif>
+    </human>
+    <human>
+        <name>Ayse Caliskan</name>
+        <numara>222222</numara>
+        <bolum>Bilgisayar Muhendisligi</bolum>
+        <sinif>2</sinif>
+    </human>
+    <human>
+        <name>Semih Arslan</name>
+        <numara>333333</numara>
+        <bolum>Kimya Muhendisligi</bolum>
+        <sinif>3</sinif>
+    </human>
+    <human>
+        <name>Mehmet Erkoc</name>
+        <numara>444444</numara>
+        <bolum>Kimya Muhendisligi</bolum>
+        <sinif>3</sinif>
+    </human>
+</humans>
