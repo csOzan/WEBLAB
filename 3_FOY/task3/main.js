@@ -1,13 +1,11 @@
 
 const fs = require('fs');
 
-const asallar = [3, 11, 2, 5, 7, 13, 19, 17, 23, 29, 31, 41, 37, 43, 47, 53, 59, 61, 67, 73, 71, 79, 83, 89 ];
-
 function readPrimes() {
     var list = [];
     var content = "";
     content = fs.readFileSync('./asal_sayi.txt').toString();
-    list = content.split(' ').map(Number);
+    list = content.split(',').map(Number);
     if(list.includes(0)){
         list.pop(0);
     }
